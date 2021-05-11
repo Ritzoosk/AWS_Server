@@ -3,7 +3,7 @@
 const io = require('socket.io-client');
 
 // const server = 'http://localhost:3000';
-const server = 'http://nodeservertest-env.eba-tje4rh3r.us-west-2.elasticbeanstalk.com';
+const server = 'http://testserver-env.eba-nz5cfynm.us-west-2.elasticbeanstalk.com/';
 
 const socket = io.connect(server);
 
